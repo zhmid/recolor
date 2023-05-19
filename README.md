@@ -1,6 +1,6 @@
 <h1>Colorfan</h1>
 <p>Colorfan is a powerful Python module that allows you to set console colors in your Python applications. With this module, you can add color and style to the text displayed on the terminal/command prompt.</p>
-<p>This module was created by Hamidreza Ahmadi and is available on his GitHub page under the username <a href="https://github.com/hushra">hushra</a>. You can find the source code, documentation, and examples on his page.</p>
+<p>This module was created by Hamidreza Ahmadi and is available on his GitHub page under the username <a href="https://github.com/zhmid">zhmid</a>. You can find the source code, documentation, and examples on his page.</p>
 <h2>Installation</h2>
 <p>To install Colorfan, you can use pip:</p>
 <pre class="code-block-wrapper"><div class="code-block-header"><span class="code-block-header__lang"></span></div><code class="hljs code-block-body ">pip <span class="hljs-keyword">install</span> colorfan
