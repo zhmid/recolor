@@ -1,18 +1,18 @@
-<h1>Colorfan</h1>
-<p>Colorfan is a powerful Python module that allows you to set console colors in your Python applications. With this module, you can add color and style to the text displayed on the terminal/command prompt.</p>
+<h1>Recolor</h1>
+<p>Recolor is a powerful Python module that allows you to set console colors in your Python applications. With this module, you can add color and style to the text displayed on the terminal/command prompt.</p>
 <p>This module was created by Hamidreza Ahmadi and is available on his GitHub page under the username <a href="https://github.com/zhmid">zhmid</a>. You can find the source code, documentation, and examples on his page.</p>
 <h2>Installation</h2>
-<p>To install Colorfan, you can use pip:</p>
-<pre class="code-block-wrapper"><div class="code-block-header"><span class="code-block-header__lang"></span></div><code class="hljs code-block-body ">pip <span class="hljs-keyword">install</span> colorfan
+<p>To install Recolor, you can use pip:</p>
+<pre class="code-block-wrapper"><div class="code-block-header"><span class="code-block-header__lang"></span></div><code class="hljs code-block-body ">pip <span class="hljs-keyword">install</span> recolor
 </code></pre>
 <h2>Usage</h2>
-<p>To use Colorfan, you can import the module and use its functions as shown in the following example:</p>
-<pre class="code-block-wrapper"><div class="code-block-header"><span class="code-block-header__lang"></span></div><code class="hljs code-block-body "><span class="hljs-keyword">import</span> colorfan
-<span class="hljs-built_in">print</span>(colorfan.colorize(<span class="hljs-number">255</span>, [<span class="hljs-number">100</span>],<span class="hljs-number">1</span>) + <span class="hljs-string">"hi"</span>)
+<p>To use Recolor, you can import the module and use its functions as shown in the following example:</p>
+<pre class="code-block-wrapper"><div class="code-block-header"><span class="code-block-header__lang"></span></div><code class="hljs code-block-body "><span class="hljs-keyword">import</span> recolor
+<span class="hljs-built_in">print</span>(recolor.colorize(<span class="hljs-number">255</span>, [<span class="hljs-number">100</span>],<span class="hljs-number">1</span>) + <span class="hljs-string">"hi"</span>)
 </code></pre>
 <p>In this example, the <code>colorize()</code> function is used to print "hi" in a specific color with a weight of 1. The <code>fgcolor()</code> and <code>bgcolor()</code> functions can also be used to set the foreground and background colors separately, and the <code>uncolor()</code> function can be used to reset the console color to its default setting.</p>
 <h2>Functions</h2>
-<p>The following functions are available in the Colorfan module:</p>
+<p>The following functions are available in the Recolor module:</p>
 <ul>
 <li><code>colorize(fgcolor, bgcolor, weight=0)</code>: Returns the color code for a specific combination of foreground and background colors with a specified weight.</li>
 <li><code>fgcolor(fgcolor)</code>: Returns the color code for a specific foreground color.</li>
@@ -59,4 +59,4 @@
 </ul>
 <p>For more information on how to use these functions, please refer to the documentation on Hamidreza Ahmadi's GitHub page.</p>
 <h2>Conclusion</h2>
-<p>With Colorfan, you can easily add color and style to the text displayed on the terminal/command prompt in your Python applications. This module is easy to use and highly customizable, making it a great choice for developers who want to create eye-catching console interfaces.</p>
+<p>With Recolor, you can easily add color and style to the text displayed on the terminal/command prompt in your Python applications. This module is easy to use and highly customizable, making it a great choice for developers who want to create eye-catching console interfaces.</p>
