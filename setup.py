@@ -3,15 +3,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='Colorfan',
+    name='Recolor',
     version='0.1.4',
     description='A powerful python module to set console color',
-    py_modules=['colorfan'],
+    py_modules=['recolor'],
     author='Hamidreza Ahmadi',
-    author_email='hushra@pm.me',
+    author_email='zhmid@pm.me',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/hushra/colorfan',
+    url='https://github.com/zhmid/recolor',
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
